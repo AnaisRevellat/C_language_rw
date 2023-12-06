@@ -4,7 +4,7 @@
 int main()
 {
     int my_integer = 12;
-    printf("L'integer est égal à %d", my_integer);
+    printf("L'integer est égal à: \n %d", my_integer);
 
     return 0;
 }
