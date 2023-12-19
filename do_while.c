@@ -8,7 +8,7 @@ int main()
        printf("Entrez un nombre entre 1 et 10\n");
        scanf("%d", &number);
    }
-   while(!(number >= 0 && number <= 10));
+   while(!(number < 1 && number > 10));
    
    return 0;
 }
